@@ -1,0 +1,1 @@
+export default ["emoji one", "emoji 2"]

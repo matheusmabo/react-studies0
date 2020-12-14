@@ -4,18 +4,20 @@ import { Container,
     Profile,
     Welcome,
     UserName } from './style';
+import Toggle from '../Toggle';
 const navBarHeader : React.FC = () => {
-
     return(
-  
     <>
     <Container>
-    <h1>Header</h1>
-    <Welcome> Olá, </Welcome>
+        
+        <Toggle></Toggle>
     <Profile>
-        <UserName>Matheus Mariotto </UserName>
-        </Profile>
-
+    <Welcome> Olá, </Welcome>
+    <UserName>Matheus Mariotto</UserName>
+    </Profile>
+     
+      
+        
     </Container>
     </>
     );

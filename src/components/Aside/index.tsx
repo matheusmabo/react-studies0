@@ -1,13 +1,29 @@
 
 import React, { Component } from 'react';
 
-import { Container } from "./style";
+import { Container,
+Logo,
+Title,
+Header,
+MenuItemLink,
+MenuContainer } from "./style";
 
 const Aside: React.FC = () => {
     return (
         <>
         <Container>
-            <h1>Aside</h1>
+            <Header>
+                <Logo>Improva</Logo>           
+            </Header>      
+            
+            <Title> Menu</Title> 
+            <MenuContainer>
+            <MenuItemLink href = "">histórico</MenuItemLink>
+            <MenuItemLink href = "">meus cards</MenuItemLink>
+            <MenuItemLink href = "">meus treinos</MenuItemLink>
+            <MenuItemLink href = "">configurações </MenuItemLink>
+            </MenuContainer>
+           
         </Container>
 
         </>

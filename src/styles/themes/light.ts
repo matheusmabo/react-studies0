@@ -13,6 +13,7 @@ export default {
         info: '#3B5998',
         warning: '#E44C4E',
 
+
     },
 
 
