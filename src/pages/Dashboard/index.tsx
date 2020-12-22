@@ -1,10 +1,11 @@
 import React from 'react'
-
-
+import { Container } from './style'
+import ContentHeader  from '../../components/contentHeader'
 const DashBoard : React.FC  = () => {
     return (
         <>
-         <h1>DASHBOARD</h1>         
+        <ContentHeader></ContentHeader>
+       
         </>
     );
 }

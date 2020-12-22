@@ -17,6 +17,7 @@ export const ToggleSelector =  styled(Switch).attrs<ReactSwitchProps>(
 )<ReactSwitchProps>`
 `;
 export  const ToggleLabel = styled.span `
+
 text-align: center;
 align-content: center;
 align-items: center;

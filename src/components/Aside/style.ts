@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import MdDashboard   from 'react-icons'
+import MdDashboard  from 'react-icons'
 export  const Container = styled.div `
 grid-area: AS;
 background-color: ${props => props.theme.colors.secoundary};

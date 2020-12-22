@@ -12,6 +12,10 @@ padding: 0 10px;
 border-bottom: 1px solid gray;
 justify-content: space-between;
 
+.toggle {
+margin-left: 25px;
+}
+
 `;
 
 

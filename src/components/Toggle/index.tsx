@@ -8,7 +8,7 @@ import {
 const Toggle: React.FC = () => {
     return(
         <>
-        <div>
+        <div className = "toggle">
         <ToggleLabel>light </ToggleLabel> 
         <ToggleSelector 
         checked
