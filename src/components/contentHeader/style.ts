@@ -5,6 +5,7 @@ interface ITitleContainerProps {
      
 }
 export const Container = styled.div `
+margin-top:25px;
 width: 100%;
 display: flex;
 margin-bottom: 25px;

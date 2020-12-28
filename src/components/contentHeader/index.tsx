@@ -4,6 +4,7 @@ import  { Container,
     TitleContainer,
     Controller }  from './style';
 import SelectInput from '../SelectInput';
+import { isPropertySignature } from 'typescript';
 
 interface IContentHeaderProps {
     title: string;
@@ -14,8 +15,6 @@ interface IContentHeaderProps {
 const ContentHeader : React.FC <IContentHeaderProps> = ({
 title, lineColor, children,
 }) => {
-
- 
 return (
     <>
     <Container >

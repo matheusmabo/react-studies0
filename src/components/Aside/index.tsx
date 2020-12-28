@@ -13,14 +13,16 @@ const Aside: React.FC = () => {
         <>
         <Container>
             <Header>
-                <Logo>Improva</Logo>           
+                <Logo> <a href = "/"> ClassQuest</a></Logo>           
             </Header>      
             
             <Title> Menu</Title> 
             <MenuContainer>
-            <MenuItemLink href = "">histórico</MenuItemLink>
-            <MenuItemLink href = "">meus cards</MenuItemLink>
-            <MenuItemLink href = "">meus treinos</MenuItemLink>
+            <MenuItemLink href = "/DashBoard">home</MenuItemLink>
+            <MenuItemLink href = "/Institutions/Schools">Escolas</MenuItemLink>
+            <MenuItemLink href = "/Institutions/Teachers">Professores</MenuItemLink>
+            <MenuItemLink href = "">Torre sem fim</MenuItemLink>
+            <MenuItemLink href = "">Relatórios</MenuItemLink>
             <MenuItemLink href = "">configurações </MenuItemLink>
             </MenuContainer>
            

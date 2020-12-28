@@ -9,17 +9,23 @@ border-right: 1px solid ${props => props.theme.colors.gray};
 `;
 export  const Logo = styled.div `
 font-family: Arial, Helvetica, sans-serif; 
-padding: 20 px;
-font-size: 32px;
+padding: 20px;
+font-size: 24px;
 color: ${props => props.theme.colors.white};
 text-transform: uppercase;
 font-weight: lighter;
+text-decoration:none;
+ a {
+    text-decoration:none;
+
+ }
 `;
 export const Title = styled.h3`
 margin-left:25px;
-margin-top: 15px`;
+`;
 
 export const MenuContainer = styled.div`
+font-size: 16px;
 margin-left: 25px;
 margin-top: 50px;
 display:flex;
